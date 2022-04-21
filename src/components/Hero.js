@@ -4,7 +4,11 @@ import herogroupphoto from "../images/group.png";
 export default function Hero() {
   return (
     <section className="hero">
-      <img className="hero--photo" src={herogroupphoto} alt="airbnblogo"></img>
+      <img
+        className="hero--photo"
+        src={herogroupphoto}
+        alt="herogroupphoto"
+      ></img>
       <h1 className="hero--header">Online Experiences</h1>
       <p className="hero--text">
         Join unique interactive activies led by one-of-a-kind hosts-all without
