@@ -54,11 +54,21 @@ section {
 .card {
   width: 175px;
   font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+}
+
+.card--list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .card--image {
   width: 100%;
   border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .card--stats {
