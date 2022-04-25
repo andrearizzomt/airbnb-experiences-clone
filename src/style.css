@@ -57,6 +57,7 @@ section {
   display: flex;
   flex-direction: column;
   flex: 0 0 auto;
+  position: relative;
 }
 
 .card--list {
@@ -71,6 +72,12 @@ section {
   margin-bottom: 10px;
 }
 
+.card--title {
+  margin-top: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .card--stats {
   display: flex;
   align-items: center;
@@ -78,4 +85,18 @@ section {
 
 .card--star {
   height: 15px;
+}
+
+.card--price {
+  margin-top: 5px;
+}
+
+.card--badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
 }
